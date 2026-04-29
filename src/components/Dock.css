@@ -21,6 +21,13 @@
   z-index: 50;
 }
 
+@media (max-width: 480px) {
+  .dock-panel {
+    gap: 0.5rem;
+    padding: 0.4rem 0.5rem 0;
+  }
+}
+
 .dock-item {
   position: relative;
   display: inline-flex;

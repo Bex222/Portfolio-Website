@@ -58,7 +58,7 @@ function Project() {
         </div>
       )}
 
-    <div className="max-w-4xl mx-auto px-6 py-20 text-white">
+    <div className="max-w-4xl mx-auto px-4 md:px-6 py-12 md:py-20 text-white">
       <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-3">Work</p>
       <h1 className="text-4xl font-bold mb-10">Projects</h1>
       <div className="space-y-6">
@@ -89,7 +89,7 @@ function Project() {
             </div>
 
             {/* Info */}
-            <div className="flex flex-col justify-between p-8 flex-1">
+            <div className="flex flex-col justify-between p-5 md:p-8 flex-1">
               <div>
                 <div className="flex items-start justify-between flex-wrap gap-4 mb-4">
                   <div>

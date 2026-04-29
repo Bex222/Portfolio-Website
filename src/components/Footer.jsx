@@ -13,7 +13,7 @@ function Footer() {
   return (
     <footer className="relative z-10 border-t border-white/10 mt-20">
       {/* Main row */}
-      <div className="max-w-6xl mx-auto px-8 py-14 flex flex-col md:flex-row justify-between gap-12">
+      <div className="max-w-6xl mx-auto px-5 md:px-8 py-10 md:py-14 flex flex-col md:flex-row justify-between gap-10 md:gap-12">
 
         {/* Left — bio */}
         <div className="max-w-56">
@@ -44,7 +44,7 @@ function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/10">
-        <div className="max-w-6xl mx-auto px-8 py-5 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-5 flex flex-wrap items-center justify-between gap-3">
           <p className="text-white/30 text-xs">
             Copyright © 2026 Bex Abila. All rights reserved.
           </p>

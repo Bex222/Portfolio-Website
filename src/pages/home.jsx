@@ -5,7 +5,7 @@ function Home() {
   const heroRef = useRef(null)
 
   return (
-    <div className="flex items-start justify-center min-h-[calc(100vh-5rem)] px-6 pt-36">
+    <div className="flex items-start justify-center min-h-[calc(100vh-5rem)] px-4 md:px-6 pt-16 md:pt-36">
       <section ref={heroRef} className="max-w-4xl text-center text-white">
         <VariableProximity
           label="Hi, I'm Bex Abila."

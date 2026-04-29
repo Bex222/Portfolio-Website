@@ -18,10 +18,10 @@ function About() {
     <div className="text-white">
 
       {/* Bio */}
-      <div className="max-w-5xl mx-auto px-6 pt-20">
-        <section className="mb-16 flex flex-col md:flex-row gap-12 items-start">
+      <div className="max-w-5xl mx-auto px-4 md:px-6 pt-6 md:pt-20">
+        <section className="mb-16 flex flex-col md:flex-row gap-8 md:gap-12 items-center md:items-start">
           {/* Photo */}
-          <div className="shrink-0 md:-ml-6 md:mt-6">
+          <div className="shrink-0 self-center md:self-auto md:-ml-6 md:mt-6">
             <ProfileCard
               avatarUrl="/photos/Me.JPG"
               name="Bex Abila"
@@ -37,10 +37,10 @@ function About() {
           </div>
 
           {/* Text */}
-          <div className="flex-1">
+          <div className="flex-1 text-center md:text-left">
             <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-3">Who am I?</p>
-            <h1 className="text-4xl font-bold mb-8">I'm Bex</h1>
-            <div className="space-y-5 text-blue-100/80 text-lg leading-relaxed">
+            <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8">I'm Bex</h1>
+            <div className="space-y-4 text-blue-100/80 text-base md:text-lg leading-relaxed">
               <p>
                 I'm a Computer Science major and Applied Mathematics minor at Suffolk University.
               </p>
@@ -61,7 +61,7 @@ function About() {
             </div>
 
             {/* Social links */}
-            <div className="flex gap-4 mt-8">
+            <div className="flex gap-4 mt-8 justify-center md:justify-start">
               <a
                 href="https://www.linkedin.com/in/beksabila/"
                 target="_blank"
@@ -95,7 +95,7 @@ function About() {
           <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-2">Beyond the Code</p>
           <h2 className="text-4xl font-bold tracking-widest uppercase">Hobbies</h2>
         </div>
-        <div style={{ height: '600px', width: '100%' }}>
+        <div style={{ height: 'clamp(320px, 55vw, 600px)', width: '100%' }}>
           <CircularGallery
             items={hobbyItems}
             bend={3}
@@ -108,7 +108,7 @@ function About() {
       </section>
 
       {/* Rest of content */}
-      <div className="max-w-4xl mx-auto px-6 pb-20">
+      <div className="max-w-4xl mx-auto px-4 md:px-6 pb-20">
 
         {/* Favorite Song */}
         <section className="mb-16">
@@ -177,8 +177,8 @@ function About() {
 
         {/* Experience */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 text-center">Experience</h2>
-          <div className="grid grid-cols-2 gap-5 max-w-xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Experience</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-xl mx-auto">
 
             {/* Card: Research Assistant */}
             <div className="group relative rounded-2xl overflow-hidden cursor-default aspect-[3/4]">
@@ -236,8 +236,8 @@ function About() {
 
         {/* Education */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 text-center">Education</h2>
-          <div className="grid grid-cols-2 gap-5 max-w-xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Education</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-xl mx-auto">
 
             {/* Card: Suffolk University */}
             <div className="group relative rounded-2xl overflow-hidden cursor-default aspect-[3/4]">
