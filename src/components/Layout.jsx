@@ -1,7 +1,8 @@
 import { Outlet, useNavigate } from 'react-router-dom'
-import { GoHome, GoPerson, GoCode, GoBook } from 'react-icons/go'
+import { GoHome, GoPerson, GoCode, GoPencil } from 'react-icons/go'
 import Dock from './Dock'
 import ShapeGrid from './ShapeGrid'
+import Footer from './Footer'
 
 function Layout() {
   const navigate = useNavigate()
@@ -10,7 +11,7 @@ function Layout() {
     { icon: <GoHome size={20} />,   label: 'Home',     onClick: () => navigate('/') },
     { icon: <GoPerson size={20} />, label: 'About',    onClick: () => navigate('/about') },
     { icon: <GoCode size={20} />,   label: 'Projects', onClick: () => navigate('/projects') },
-    { icon: <GoBook size={20} />,   label: 'Classes',  onClick: () => navigate('/classes') },
+    { icon: <GoPencil size={20} />, label: 'Blog',     onClick: () => navigate('/blog') },
   ]
 
   return (
@@ -44,6 +45,7 @@ function Layout() {
       {/* Page content */}
       <main className="relative pt-20" style={{ zIndex: 1 }}>
         <Outlet />
+        <Footer />
       </main>
     </div>
   )
