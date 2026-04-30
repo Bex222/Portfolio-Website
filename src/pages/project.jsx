@@ -8,7 +8,7 @@ const projects = [
       'My personal portfolio built with React, Vite, and Tailwind CSS. Features interactive 3D components, GSAP animations, a WebGL hobby gallery, and custom UI components.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'GSAP', 'OGL'],
     github: 'https://github.com/Bex222/Portfolio-Website',
-    demo: '#',
+    demo: 'https://bexultanabila.com',
     image: '/photos/portfoliowebsite.png',
   },
   {
@@ -17,9 +17,9 @@ const projects = [
     description:
       'A split bill web app that makes it easy to track shared expenses with friends. Built collaboratively, OweBuddy simplifies who owes what so you can focus on the fun.',
     tech: ['React', 'Node.js', 'JavaScript'],
-    github: '#',
-    demo: '#',
-    image: null,
+    github: 'https://github.com/kdygen/OweBuddy-345',
+    demo: 'https://owebuddy.vercel.app/',
+    image: '/photos/owebuddy.png',
   },
 ]
 
